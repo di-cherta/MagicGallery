@@ -1,0 +1,49 @@
+body{
+    width: 1400px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url(./images/bacground.avif);
+}
+header{
+    text-align: center;
+}
+h1{
+    padding-left: 60px;
+    color: rgb(237, 173, 255);
+}
+.menu li{
+    display: inline;
+    padding-left: 30px;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: rgb(153, 141, 255);
+}
+a:hover{
+    color: rgb(228, 150, 239);
+}
+a:visited{
+    color: rgb(117, 62, 228);
+}
+.gallery{
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20px;
+    background-color: rgba(157, 63, 180, 0.24);
+}
+.gallery img{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    object-fit: cover;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+}
+footer{
+    text-align: center;
+}
